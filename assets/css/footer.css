@@ -1,0 +1,49 @@
+footer.footer {
+    background-color: rgba(var(--dark-color), 1);
+    padding-top: 82px;
+}
+
+footer.footer .sosmed-link p {
+    font-size: 0.913rem;
+    color: rgba(var(--light-color), 1);
+}
+
+footer.footer .sosmed-link p span {
+    color: rgba(var(--light-color), 0.62);
+}
+
+footer.footer .footer-title {
+    font-size: 1.25rem;
+    font-family: var(--urbanist-bold);
+    color: rgba(var(--light-color), 1);
+}
+
+footer.footer .footer-link {
+    font-size: 0.913rem;
+    color: rgba(var(--light-color), 0.62);
+}
+
+footer.footer .footer-link:hover {
+    color: rgba(var(--light-color), 1);
+}
+
+footer.footer .copyright {
+    padding: 20px 0;
+    border-top: 1px solid rgba(var(--light-color), 0.12);
+}
+
+footer.footer .copyright p {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.62);
+}
+
+footer.footer .copyright .sosmed-item {
+    width: 36px;
+    height: 36px;
+    border-radius: 9999px;
+    background-color: rgba(var(--light-color), 1);
+}
+
+footer.footer .copyright .sosmed-item:hover {
+    opacity: 0.8;
+}

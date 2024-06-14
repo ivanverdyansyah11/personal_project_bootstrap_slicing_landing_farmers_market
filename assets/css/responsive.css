@@ -1,0 +1,63 @@
+@media (max-width: 1199.98px) {
+    .headline {
+        font-size: 3.75rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+    .navbar-brand img {
+        height: 46px;
+    }
+
+    section.offer .card-offer .offer-content {
+        width: 80%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .headline {
+        font-size: 3.75rem;
+        margin-top: 32px;
+    }
+
+    .content-gap {
+        margin-top: 42px;
+    }
+
+    section.hero .card-hero {
+        padding: 62px 0;
+    }
+
+    section.offer .card-offer .offer-content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .headline {
+        font-size: 3.25rem;
+        margin-top: 12px;
+    }
+
+    .title {
+        font-size: 1.75rem;
+    }
+
+    .content-gap {
+        margin-top: 20px;
+    }
+
+    section.hero .input-group .input-search {
+        width: 70%;
+    }
+
+    section.hero .input-group .button-primary {
+        width: 30%;
+    }
+}

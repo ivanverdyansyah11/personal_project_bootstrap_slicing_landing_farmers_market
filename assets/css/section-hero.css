@@ -1,0 +1,49 @@
+section.hero .card-hero {
+    margin-top: 86px;
+    background-color: #B2DCA0;
+}
+
+section.hero .input-group .input-search {
+    width: 80%;
+}
+
+section.hero .input-search input {
+    padding: 14px 16px;
+    padding-left: 44px;
+    background-color: rgba(var(--light-color), 1);
+    border: none;
+    color: rgba(var(--dark-color), 0.62);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+section.hero .input-search input::placeholder {
+    font-size: 0.875rem;
+    color: rgba(var(--dark-color), 0.62);
+}
+
+section.hero .input-group .button-primary {
+    width: 20%;
+}
+
+section.hero .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    left: 50% !important;
+    bottom: 32px !important;
+    display: flex;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+section.hero .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 9999px !important;
+    margin: 0 3px !important;
+    opacity: 1 !important;
+    background-color: rgba(var(--light-color), 0.32) !important;
+}
+
+section.hero .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 30px !important;
+    background-color: rgba(var(--light-color), 1) !important;
+}

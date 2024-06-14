@@ -1,0 +1,23 @@
+section.partner .swiperPartner img {
+    border-radius: 16px;
+}
+
+section.partner .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    left: 50%;
+    bottom: -42px !important;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+section.partner .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0 3px !important;
+    border-radius: 9999px !important;
+    background-color: rgba(var(--dark-color), 0.12) !important;
+}
+
+section.partner .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 30px !important;
+    background-color: rgba(var(--primary-color), 1) !important;
+}

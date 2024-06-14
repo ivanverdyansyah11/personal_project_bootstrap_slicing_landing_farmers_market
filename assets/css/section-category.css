@@ -1,0 +1,46 @@
+section.category .content-category .card-category {
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid rgba(var(--dark-color), 0.12);
+    width: 100%;
+}
+
+section.category .content-category .category-image {
+    background-color: #F4F6FA;
+}
+
+section.category .content-category .category-image img {
+    aspect-ratio: 1/1;
+    width: 100px;
+    object-fit: cover;
+}
+
+section.category .content-category .category-content .title-name {
+    font-size: 1rem;
+    font-family: var(--urbanist-semibold);
+}
+
+section.category .content-category .card-category:hover .title-name {
+    color: rgba(var(--primary-color), 1);
+}
+
+section.category .content-category .category-content .title-size {
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 0.62);
+}
+
+section.category .content-category .category-content .star-list p {
+    font-size: 0.813rem;
+    color: rgba(var(--dark-color), 0.62);
+}
+
+section.category .content-category .category-content .content-price {
+    font-family: var(--urbanist-bold);
+    color: rgba(var(--primary-color), 1);
+}
+
+section.category .content-category .category-content .content-price-discount {
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 0.62);
+    text-decoration: line-through;
+}

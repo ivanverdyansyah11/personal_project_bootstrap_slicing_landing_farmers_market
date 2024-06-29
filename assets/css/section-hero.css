@@ -26,7 +26,7 @@ section.hero .input-group .button-primary {
     width: 20%;
 }
 
-section.hero .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+section.hero .swiper-horizontal>.swiper-pagination-bullets, section.hero .swiper-pagination-bullets.swiper-pagination-horizontal, section.hero .swiper-pagination-custom, section.hero .swiper-pagination-fraction {
     left: 50% !important;
     bottom: 32px !important;
     display: flex;
@@ -34,7 +34,7 @@ section.hero .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-b
     z-index: 10;
 }
 
-section.hero .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+section.hero .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, section.hero .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
     border-radius: 9999px !important;
@@ -43,7 +43,7 @@ section.hero .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bu
     background-color: rgba(var(--light-color), 0.32) !important;
 }
 
-section.hero .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+section.hero .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, section.hero .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
     width: 30px !important;
     background-color: rgba(var(--light-color), 1) !important;
 }

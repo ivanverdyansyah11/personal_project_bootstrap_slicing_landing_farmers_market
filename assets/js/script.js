@@ -9,7 +9,7 @@ $('.button-hamburger').on('click', function() {
 
 const swiper = new Swiper(".swiperHero", {
     pagination: {
-        el: ".swiper-pagination",
+        el: ".swiper-pagination-hero",
     },
 });
 
